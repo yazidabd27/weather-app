@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+    background: url('backGround\ image.jpg') no-repeat;
+    background-size: cover;
+}
+
+.container{
+    background-color: rgba(0, 0, 0, .6);
+    width: 500px;
+    height: 400px;
+    margin: 100px auto;
+    border-radius: 20px;
+    color: #fff;
+}
+
+input{
+    width: 70%;
+    margin: 20px 15%;
+    padding: 8px;
+    background-color: black;
+    border: none;
+    outline: none;
+    color: #fff;
+}
+
+.flex{
+    display: flex;
+}
+
+.statistiques{
+    width: 50%;
+}
+
+.info{
+    width: 50%;
+    text-align: right;
+    padding-top: 10px;
+}
+
+.conditions,
+.time,
+.humidity,
+.precip,
+.wind-speed{
+    margin: 10px;
+    font-size: 14px;
+    color: #ccc;
+}
+
+.tempreture{
+    margin: 10px;
+    font-size: 40px;
+}
+
+.location{
+    margin:10px ;
+    font-size: 20px;
+}
+
+.info i{
+    font-size: 40px;
+    margin-right: 20px;
+}
+
+.search-bar{
+    position: relative;
+}
+
+.search-bar i{
+    position: absolute;
+    top: 39%;
+    right: 17%;
+    cursor: pointer;
+}
+
+.yellow{
+    color: yellow;
+}
+
+.grey{
+    color: grey;
+}
+
+.blue{
+    color: #3486eb; 
+}
+
+.white{
+    color: white;
+}
+
+.mix{
+    color: #dbd87d;
+}
+
+.next-days{
+    display: flex;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.next-days span{
+    padding:5px;
+    display: block;
+}
+
+.next-days div{
+    width: calc(100%/7);
+}
