@@ -51,6 +51,7 @@ newLocation.onclick=function(){
     if(inputField!=''){
         city=inputField.value;
         window.localStorage.setItem('lastLocation',inputField.value);
+        inputField='';
         getWeather();
     }
 }
